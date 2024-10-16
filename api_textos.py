@@ -5,10 +5,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 app = Flask(__name__)
 
 # puxo o modelo já treinado e binzarizado, aqui contem todas as funçõe e parametros do modelo
-model = joblib.load(r'C:\Users\guipi\Desktop\python\api oficina\modelo.pkl')
+model = joblib.load(r'C:\Users\guipi\Desktop\python\api oficina\Oficina_Sentment140\modelo.pkl')
 
 # puxo o modelo de tfidf já treinado com o meu datasset previo, contendo os pesos atribuidos as palavras
-tfidf_vectorizer = joblib.load(r'C:\Users\guipi\Desktop\python\api oficina\vetor_tfidf.pkl')
+tfidf_vectorizer = joblib.load(r'C:\Users\guipi\Desktop\python\api oficina\Oficina_Sentment140\vetor_tfidf.pkl')
 
 # defino o resqueste para o caminho /predict, e recebo dados com metodo Post
 @app.route('/predict', methods=['POST'])
