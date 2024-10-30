@@ -1,7 +1,7 @@
 # Oficina_Sentment140
 Repositorio contendo os codigos da oficina de Ciência de Dados ministrada por mim;
 
-## Qual o problema a ser resulvido?
+## Qual o problema a ser resolvido?
 -  Analisar o sentimento dos usuários em relação a um produto, serviço ou
 marca específica
 
